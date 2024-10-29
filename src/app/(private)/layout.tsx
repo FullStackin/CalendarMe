@@ -5,7 +5,7 @@ export default function PrivateLayout({ children }: { children: ReactNode }) {
     <>
       <header></header>
 
-      <main className="container my-6 mx-auto">{children}</main>
+      <main className="container my-6">{children}</main>
     </>
   );
 }
